@@ -1,0 +1,73 @@
+.sizes{
+    background-image: url("../img/background/background-size.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sizes-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0 -15px;
+}
+
+.sizes-card{
+    width: 280px;
+    margin: 0 15px;
+}
+
+.sizes-img{
+    width: 280px;
+    height: 376px;
+    /* border: 1px solid #FFFFFF; */
+    margin-bottom: 20px;
+}
+
+.sizes-card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sizes-card-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sizes-button{
+    display: block;
+    margin: 0 auto 20px;
+    width: 238px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #8A00BB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.sizes-button:last-child{
+    margin-bottom: 50px;
+    border: 1px solid #2400ff;
+}
+
+.sizes-button-two{
+    display: block;
+    margin: auto;
+    width: 238px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #2400ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}

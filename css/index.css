@@ -1,5 +1,7 @@
 @import url(../css/home.css);
 @import url(../css/cdn.css);
+@import url(../css/size.css);
+@import url(../css/foto.css);
 
 
 *{
@@ -11,7 +13,7 @@ box-sizing:border-box;
 }
 
 html {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 section{
@@ -24,19 +26,3 @@ section{
   margin: auto;
   position: relative;
 }
-
-.button{
-   display: block;
-   margin-bottom: 20px;
-   width: 238px;
-   height: 56px;
-   background: #FFFFFF;
-   border: 1px solid #8A00BB;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   border-radius: 25px;
- }
- 
- .button:last-child{
-   margin-bottom: 676px;
-   border: 1px solid #2400ff;
- }
